@@ -7,17 +7,27 @@
     "url": "https://github.com/TheoryLabs/Cryptex.git"
   },
   "author": {
-    "name" : "Branden Dane",
-    "email" : "Dane@TheoryLabs.dev",
-    "url" : "https://WhoAmI.TheoryLabs.Dev"
+    "name": "Branden Dane",
+    "email": "Dane@TheoryLabs.dev",
+    "url": "https://WhoAmI.TheoryLabs.Dev"
   },
   "homepage": "https://github.com/TheoryLabs/Cryptex#README",
   "bugs": {
-    "url" : "https://github.com/TheoryLabs/Cryptex/issues",
-    "email" : "Dane@TheoryLabs.dev"
+    "url": "https://github.com/TheoryLabs/Cryptex/issues",
+    "email": "Dane@TheoryLabs.dev"
   },
   "private": true,
   "workspaces": [
     "workspaces/**/*"
-  ]
+  ],
+  "scripts": {
+    "oao:status": "oao status",
+    "oao:bootstrap": "oao bootstrap",
+    "oao:clean": "oao clean",
+    "status": "yarn oao:status"
+  },
+  "devDependencies": {
+    "oao": "^2.0.2",
+    "ultra-runner": "^3.10.5"
+  }
 }
