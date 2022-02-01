@@ -1,0 +1,23 @@
+{
+  "name": "@theorylabs/project-cryptex",
+  "version": "0.0.1",
+  "description": "Project Cryptex - Monorepo containing the various pieces and parts for all publicly available assets related to Cryptex: The completely open-source, tooling/framework/vendor/*insert-yet-another-[SERVICE_AS_A_PAIN_IN_THE_ASS]-you-end-up-having-to-learn-and-or-pay-for* agnostic, Developer first toolkit for secrets management. Primarily focussed on replicating secret management provider services/tooling/libs you and your team pay for in your production build environments (as smart devs should), down to the machine you use for development magic. Free, modular, light-weight (any pre-requisite deps are common dev related shit we all have setup already), and EASY. Why? Because mocking production services locally is never full-proof in e2e testing and as a methodology, highly prone to data leaks. We've all pushed an .env file somewhere we shouldn't have, then spent time/money/sanity putting out the fires.      ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheoryLabs/Cryptex.git"
+  },
+  "author": {
+    "name" : "Branden Dane",
+    "email" : "Dane@TheoryLabs.dev",
+    "url" : "https://WhoAmI.TheoryLabs.Dev"
+  },
+  "homepage": "https://github.com/TheoryLabs/Cryptex#README",
+  "bugs": {
+    "url" : "https://github.com/TheoryLabs/Cryptex/issues",
+    "email" : "Dane@TheoryLabs.dev"
+  },
+  "private": true,
+  "workspaces": [
+    "workspaces/**/*"
+  ]
+}
